@@ -1,0 +1,7 @@
+[{'FromPort': 80,
+  'IpProtocol': 'tcp',
+  'IpRanges': [{'CidrIp': '0.0.0.0/0', 'Description': 'http rule boto3'}],
+  'Ipv6Ranges': [],
+  'PrefixListIds': [],
+  'ToPort': 80,
+  'UserIdGroupPairs': []},
