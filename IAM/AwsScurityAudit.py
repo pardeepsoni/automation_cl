@@ -1,6 +1,6 @@
 import random
 import boto3
-from AWS.setup import setup_re_ec2, setup_cli_ec2
+from automation_cl.setup import setup_re_ec2, setup_cli_ec2
 from pprint import pprint
 import sys
 
@@ -95,4 +95,3 @@ def ingress_rule():
     SecurityAudit('pardeepsoni').attach_ingress_rule_to_sg_with_cidr(sg_id, cidr, from_port, to_port, ip_protocol)
     print("Rule attached to security group.")
 
-ingress_rule()

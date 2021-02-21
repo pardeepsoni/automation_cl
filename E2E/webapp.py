@@ -1,6 +1,6 @@
 import boto3
 from pprint import pprint
-from AWS.setup import  setup_cli_ec2,  setup_cli_elb, setup_cli_asg, setup_cli_rds
+from automation_cl.setup import  setup_cli_ec2,  setup_cli_elb, setup_cli_asg, setup_cli_rds
 import os
 import base64
 

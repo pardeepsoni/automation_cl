@@ -1,7 +1,7 @@
 import boto3
 import sys
 from pprint import pprint
-from AWS.setup import setup_cli_iam, setup_re_iam
+from automation_cl.setup import setup_cli_iam, setup_re_iam
 from datetime import datetime
 import re
 import random

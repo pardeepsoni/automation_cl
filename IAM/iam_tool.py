@@ -1,8 +1,8 @@
 import boto3
 import sys
 from pprint import pprint
-from AWS.setup import setup_cli_iam
-from AWS.IAM import iam_list, iam_provision, iam_modify
+from automation_cl.setup import setup_cli_iam
+from automation_cl.IAM import iam_list, iam_provision, iam_modify
 
 
 iam_list_option = iam_list.IamInventory('pardeepsoni')

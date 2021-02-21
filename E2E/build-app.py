@@ -1,4 +1,4 @@
-from AWS.E2E import webapp
+from automation_cl.E2E import webapp
 import os
 
 

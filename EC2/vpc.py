@@ -1,6 +1,6 @@
 import boto3
 from pprint import pprint
-from AWS.setup import setup_re_ec2, setup_cli_ec2
+from automation_cl.setup import setup_re_ec2, setup_cli_ec2
 import sys
 
 

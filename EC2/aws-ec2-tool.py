@@ -1,7 +1,7 @@
 import sys
-import AWS.EC2.ec2_services_list as aws_list
-import AWS.EC2.ec2_service_modify as aws_mod
-import AWS.EC2.ec2_service_create as aws_create
+import automation_cl.EC2.ec2_services_list as aws_list
+import automation_cl.EC2.ec2_service_modify as aws_mod
+import automation_cl.EC2.ec2_service_create as aws_create
 
 
 print("""
